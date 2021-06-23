@@ -1,0 +1,77 @@
+/*.row {
+    border: 2px solid #080808;
+    padding: 3px;
+  }
+  [class^="col"] {
+    padding: 1rem;
+    border: 2px solid #3FA5DB;*/
+   
+
+body {
+    background-color: #fbf6c7;
+    color: #1c3144;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;   
+    font-size:medium;
+    
+    /*cursor : url(../image/iconfleur.png), pointer;*/
+}
+
+#logo {
+    width: 30vh;  
+}
+
+#gif {
+  height: 80vh;
+  width: 98.5vw;
+  z-index: 1;
+  position: absolute;
+  top: 15vh;
+  left: 0;
+}
+
+.image {
+  /*position: absolute;*/
+ /*z-index: 2;  .boite-doree sera au-dessus de .boite-verte et .boite-tirets */
+  /*background: gold;*/
+  width: 80%;
+  left: 180px;
+  top: 8em;
+}
+.presentation {
+  position: absolute;
+  z-index: 4; /* .boite-verte sera au-dessus de .boite-tirets */
+ /* background: rgb(255, 255, 255);*/
+  width:auto;
+  left: 40%;
+  top: 325px;
+ /* height: 7em;*/
+  opacity: 0.9;
+}
+
+/*.btn {
+  background-color:#1c3144;
+}*/
+
+/*h1 {
+  font-size: xx-large;
+}*/
+
+/*portfolio*/
+
+
+
+@media screen and (max-width: 640px) {
+ /*#logo{
+  width: 37vh;
+ } */
+  #gif{ 
+    display: none;
+  }
+  .presentation {
+    z-index: 0;
+
+  }
+}
+
