@@ -10,14 +10,22 @@
 body {
     background-color: #fbf6c7;
     color: #1c3144;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Josefin Sans', sans-serif;   
     font-size:medium;
     
     /*cursor : url(../image/iconfleur.png), pointer;*/
+}/* 
+ footer::after {
+  margin: 0px;
 }
-
+footer::after {
+  box-sizing:content-box;
+} */
+footer {
+  border:1px solid #FFF;
+}
 #logo {
     width: 30vh;  
 }
@@ -71,14 +79,18 @@ body {
  } */
   #gif{ 
     display: none;
+
   }
   .presentation {
     z-index: 0;
-
+    position: initial;
+    margin-bottom: 20px;
   }
   .smiley {
     width: 35vh;
     margin-top: 50px;
   }
- 
+  #coucou {
+    margin-left: none;
+  }
 }
