@@ -5,7 +5,13 @@
   [class^="col"] {
     padding: 1rem;
     border: 2px solid #3FA5DB;*/
-   
+
+/*@font-face {
+  font-family: "moche regular";
+  src: url(../font/Moche-Regular.ttf);
+  font-family: "moche bold";
+  src: url(../font/Moche-Bold.ttf)
+}*/
 
 body {
     background-color: #fbf6c7;
@@ -13,6 +19,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;   
+    /*font-family: 'moche regular', sans-serif; */
     font-size:medium;
     
     /*cursor : url(../image/iconfleur.png), pointer;*/
