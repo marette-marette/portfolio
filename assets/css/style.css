@@ -75,7 +75,15 @@ footer {
 
 /*portfolio*/
  
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
 
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom)*/
+}
 
 
 /*fin portfolio*/
