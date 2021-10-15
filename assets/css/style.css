@@ -94,12 +94,19 @@ footer {
   transform: scale(1.1); /* (150% zoom)*/
 }
 
+#AJ {
+  height: 320px;
+}
 #clairV {
   padding-top: 36px;
 }
 
 #clairV2 {
   margin-top: 40px;
+}
+
+#eye {
+  height: 310px;
 }
 /*fin portfolio*/
 
